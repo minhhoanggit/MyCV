@@ -1,0 +1,120 @@
+@media screen and (max-width:767px) {
+    .container{
+        max-width: 98%;
+    }
+    .header-info{
+        height: 600px;
+    }
+    .details-myself{
+        width: 100%;
+        text-align: center;
+    }
+    .fullName{
+        font-size: 40px;
+        
+    }
+    .about-me img{
+        display: none;
+    }
+    .top-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        height: 100%;
+        margin-top: 40px;
+        padding-left: 40px;
+    }
+    .user:nth-child(2){
+        border-right:none;
+    }
+    .user:nth-child(5){
+        border-right:none;
+    }
+    .user{
+        margin-bottom: 30px;
+        /* width: 100%; */
+        border-left:none;
+    }
+    .a-user{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2px;
+    
+    }
+    .icon{
+        margin-right: 8px;
+    }
+    #about{
+    }
+
+    .user-info{
+        display: inline-block;
+    }
+    .goals-info {
+        width:100%;
+    }
+    .personal-info{
+        width: 100%;
+    }
+    .title-job{
+        font-size: 40px;
+    }
+    .item-cert{
+        flex-direction: column;
+        padding-bottom: 12px;
+    }
+    .item-cert img{
+        width: 100%;
+        padding: 0;
+
+    }
+    .cert-info{
+        width: 100%;
+        font-size: 20px;
+        border-bottom:1px solid #d6c08d;
+        padding-bottom: 8px;
+        padding-left: 4px;
+    }
+    .title-cert{
+        font-size: 20px;
+    }
+    .item-cert:nth-child(even){
+        border: none;
+    }
+    .list-project{
+        display: flex;
+        flex-direction: column;
+    }
+    .list-details-project{
+        flex-direction: column;
+        align-items: start;
+    }
+    .header-right{
+        display: flex;
+        flex-direction: column;
+    }
+    .name-contact{
+        display: none;
+    }
+    .item-detail-project{
+        margin-bottom: 4px;
+    }
+    .list-cert:nth-child(2){
+        border-bottom: none;
+    }
+    .cert-info-last{
+        border-bottom: none;
+    }
+    .title{
+        font-size: 42px;
+        font-weight: normal;
+    }
+
+    .title-project{
+        padding-top: 20px;
+    margin-bottom: 20px;
+    }
+
+}
